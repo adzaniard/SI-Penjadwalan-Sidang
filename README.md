@@ -15,7 +15,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak b
    ```
 2. **Masuk ke direktori proyek**:
    ```sh
-   cd repository
+   cd SI-Penjadwalan-Sidang
    ```
 
 ## 🛠 Setup & Configuration
