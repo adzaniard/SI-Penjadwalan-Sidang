@@ -11,7 +11,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak b
 
 1. **Clone repository ini ke lokal**:
    ```sh
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/adzaniard/SI-Penjadwalan-Sidang.git
    ```
 2. **Masuk ke direktori proyek**:
    ```sh
@@ -36,15 +36,14 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal perangkat lunak b
 
 ## 🌐 Akses Aplikasi
 
-- **Backend (CodeIgniter):** [http://localhost:8080](http://localhost:8080)
-- **Frontend (Laravel):** [http://localhost:3000](http://localhost:3000)
-- **PHPMyAdmin (Opsional):** [http://localhost:8080](http://localhost:8080)
+- **Backend (CodeIgniter):** [http://localhost:9000](http://localhost:9000)
+- **Frontend (Laravel):** [http://localhost:5173](http://localhost:5173)
 
 ## 🚀 Running the Application
 
 1. **Akses aplikasi melalui browser:**
    ```
-   http://localhost:3000
+   http://localhost:8080
    ```
 2. **Melihat logs aplikasi jika terjadi error:**
    ```sh
