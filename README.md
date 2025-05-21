@@ -126,7 +126,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
 ## 🐳 Menjalankan Proyek dengan Docker
 
-1. **Pastikan Docker aktif**
+1. **Pastikan Docker Desktop sedang berjalan.**
 
 2. **Build dan jalankan container:**
    ```bash
@@ -137,32 +137,19 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
    ```bash
    docker ps
    ```
+   
+4. **Akses Aplikasi**
+   Buka Docker Desktop, masuk ke tab Containers, pilih container bernama       fee-nginx, lalu klik port (biasanya: http://localhost:8082) yang            tersedia untuk mengakses aplikasi melalui browser.
+   
+5. **Cek log jika diperlukan**
+   ```bash
+   docker-compose logs -f
+   ```
 
----
-
-## 🌐 Akses Aplikasi
-
-- **Backend (CodeIgniter):** [http://localhost:8080](http://localhost:8080)  
-- **Frontend (Laravel):** [http://localhost:8000](http://localhost:8000)
-
----
-
-## 🚀 Menjalankan Aplikasi
-
-- Buka di browser:
-  ```
-  http://localhost:8082
-  ```
-
-- Lihat log jika terjadi error:
-  ```bash
-  docker-compose logs -f
-  ```
-
-- Restart container jika perlu:
-  ```bash
-  docker-compose restart
-  ```
+6. **Restart container jika diperlukan**
+   ```bash
+   docker-compose restart
+   ```
 
 ---
 
